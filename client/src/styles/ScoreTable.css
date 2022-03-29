@@ -1,0 +1,21 @@
+.score-table {
+    width: 320px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 5px;
+}
+
+.score-table div {
+    color: #00A9E0;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.score-table div:first-child {
+    background-color: #00A9E0;
+    color: white;
+}
+

@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subcontainer_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    border-bottom: 2px solid gray;
+}
+
+.subcontainer_1 button{
+    background-color: black;
+    color: white;
+    margin-top: 40%;
+    border-radius: 8px;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    transition: 0.5s;
+}
+
+.subcontainer_2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 5px 8px; 
+}
+
+.table th {
+    text-align: center;
+    padding: 10px 35px;
+    background-color: #002538;
+    color: #ffff;
+}
+
+.table td {
+    background-color: #54595F;
+    text-align: center;
+    width: auto;
+    padding: 10px 35px;
+    font-style: italic;
+    font-weight: bold;
+}
