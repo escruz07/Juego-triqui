@@ -39,7 +39,7 @@ app.use((err, req, res, next) => {
 
 const port = process.env.PORT || 3001;
 
-conn.sync({force:true}).then(()=>{
+conn.sync({force:false}).then(()=>{
 	app.listen(port, ()=>{
 		console.log(`Escuchando Port ${port}`);
 	});
